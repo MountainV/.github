@@ -5,10 +5,11 @@
 Willkommen in der MountainV-Organisation. Hier sammeln wir unsere Projekte,
 unser Wissen und unsere Standards an einem Ort.
 
-## 📚 Einstieg
+## 📚 Unsere Repos
 
 | Repo | Zweck |
 |------|-------|
+| [**takephone**](https://github.com/MountainV/takephone) | 📞 Tool rund ums Telefon – Anrufe, Kontakte, Automatisierung |
 | [**docs**](https://github.com/MountainV/docs) | Zentrale Dokumentation, Guides & Standards |
 | [**.github**](https://github.com/MountainV/.github) | Org-Profil, Issue-/PR-Vorlagen, Richtlinien |
 

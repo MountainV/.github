@@ -1,0 +1,39 @@
+name: "🐛 Bug melden"
+description: "Etwas funktioniert nicht wie erwartet"
+title: "[Bug]: "
+labels: ["type: bug", "status: triage"]
+body:
+  - type: markdown
+    attributes:
+      value: "Danke fürs Melden! Bitte fülle die Felder so genau wie möglich aus."
+  - type: textarea
+    id: what-happened
+    attributes:
+      label: Was ist passiert?
+      description: Beschreibe das Problem.
+      placeholder: Beim Klick auf ... passiert ...
+    validations:
+      required: true
+  - type: textarea
+    id: expected
+    attributes:
+      label: Was hättest du erwartet?
+    validations:
+      required: true
+  - type: textarea
+    id: steps
+    attributes:
+      label: Schritte zum Reproduzieren
+      placeholder: |
+        1. Gehe zu ...
+        2. Klicke auf ...
+        3. Fehler erscheint
+    validations:
+      required: true
+  - type: input
+    id: environment
+    attributes:
+      label: Umgebung
+      placeholder: "OS, Version, Browser ..."
+    validations:
+      required: false

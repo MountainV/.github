@@ -1,0 +1,29 @@
+name: "📝 Doku-Aufgabe"
+description: "Etwas muss dokumentiert, korrigiert oder ergänzt werden"
+title: "[Docs]: "
+labels: ["type: docs", "status: triage"]
+body:
+  - type: dropdown
+    id: kind
+    attributes:
+      label: Art der Aufgabe
+      options:
+        - Neue Doku schreiben
+        - Bestehende Doku aktualisieren
+        - Fehler korrigieren
+        - Übersetzen
+    validations:
+      required: true
+  - type: textarea
+    id: details
+    attributes:
+      label: Was soll dokumentiert werden?
+    validations:
+      required: true
+  - type: input
+    id: location
+    attributes:
+      label: Wo gehört es hin?
+      placeholder: "z. B. docs/guides/..."
+    validations:
+      required: false

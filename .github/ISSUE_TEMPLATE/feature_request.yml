@@ -1,0 +1,25 @@
+name: "✨ Feature vorschlagen"
+description: "Eine neue Idee oder Verbesserung"
+title: "[Feature]: "
+labels: ["type: feature", "status: triage"]
+body:
+  - type: textarea
+    id: problem
+    attributes:
+      label: Welches Problem löst das?
+      description: Welchen Schmerzpunkt adressiert dein Vorschlag?
+    validations:
+      required: true
+  - type: textarea
+    id: solution
+    attributes:
+      label: Vorgeschlagene Lösung
+    validations:
+      required: true
+  - type: textarea
+    id: alternatives
+    attributes:
+      label: Alternativen
+      description: Hast du andere Ansätze erwogen?
+    validations:
+      required: false

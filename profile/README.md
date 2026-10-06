@@ -5,11 +5,20 @@
 Willkommen in der MountainV-Organisation. Hier sammeln wir unsere Projekte,
 unser Wissen und unsere Standards an einem Ort.
 
-## 📚 Unsere Repos
+## 🎮 FiveM-Ressourcen
 
 | Repo | Zweck |
 |------|-------|
 | [**takephone**](https://github.com/MountainV/takephone) | 📞 Tool rund ums Telefon – Anrufe, Kontakte, Automatisierung |
+| [**TakePerso**](https://github.com/MountainV/TakePerso) | 🪪 Persönliches Menü (F5): Ausweis, Führerschein, Waffenschein |
+| [**TakeAdmin**](https://github.com/MountainV/TakeAdmin) | 🛡️ Admin-Menü mit ESX-Support (Banns, Reports, Tools) |
+| [**TakeGarage**](https://github.com/MountainV/TakeGarage) | 🚗 Garagensystem für ESX Legacy |
+| [**TakeLoding**](https://github.com/MountainV/TakeLoding) | 🖼️ Schlichter Loadscreen (Slideshow, Musik, Ladebalken) |
+
+## 📚 Doku & Organisation
+
+| Repo | Zweck |
+|------|-------|
 | [**docs**](https://github.com/MountainV/docs) | Zentrale Dokumentation, Guides & Standards |
 | [**.github**](https://github.com/MountainV/.github) | Org-Profil, Issue-/PR-Vorlagen, Richtlinien |
 
